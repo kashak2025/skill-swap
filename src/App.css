@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  /* padding-top: 20px; */
+}
+
+/* Logo */
+
+.logo{
+  color: #000;
+}
+
+.slick-next{
+  right: 10px !important;
+}
+.slick-prev{
+  left: 10px !important;
+  z-index: 999 !important ;
+}
+.slick-prev:before, .slick-next:before{
+  color: #00000000 !important;
+}
+.slider-container{
+  padding-bottom: 40px;
+}
+
+.slick-arrow{
+  content: '1';
+  /* offset-distance: calc(200px - 400px); */
+}
+
+/* .jost-serif {
+  font-family: "Jost", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+} */
+
+.MuiButtonBase-root a{
+  text-decoration: none;
+}
+
+
+
+
+.MuiBox-root a{
+  color: #fff;
+  text-decoration: none;
+}
