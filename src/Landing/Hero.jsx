@@ -263,30 +263,30 @@ const Hero = () => {
       </div>
 
       <Box
-        sx={{ display: { lg: "block", md: "block", sm: "none", xs: "none" } }}
+        sx={{ display: { lg: "block", md: "block", sm: "none", xs: "none" }, mt:'20px' }}
         className="slider2"
       >
         <div className="slider-container">
           <Slider {...settings2}>
             <div>
-              <Box>
+              <Box sx={{ height: "150px", display: "flex", alignItems: "center" }}>
                 <img src={Sli1} width={"100%"} alt="" />
               </Box>
             </div>
             <div>
-              <Box>
+              <Box sx={{ height: "100%", display: "flex", alignItems: "center" }}>
                 <img src={Sli2} width={"100%"} alt="" />
               </Box>
             </div>
-            <div>
+            <div height={"100%"}>
               <Box
-                sx={{ height: "100%", display: "flex", alignItems: "center" }}
+                sx={{ height: "150px", display: "flex", alignItems: "center" }}
               >
                 <img src={Sli3} width={"100%"} alt="" />
               </Box>
             </div>
-            <div>
-              <Box>
+            <div height={"100%"}>
+              <Box sx={{ height: "150px", display: "flex", alignItems: "center" }}>
                 <img src={Sli4} width={"100%"} alt="" />
               </Box>
             </div>
@@ -328,7 +328,7 @@ const Hero = () => {
                     fontSize: "18px",
                   }}
                 >
-                  SkillSwapIndia.{" "}
+                   SkillSwapIndia.{" "}
                 </span>
                 , we empower learning through skill exchange—no money needed.
                 Whether it's a new language, coding, or a creative hobby, our
@@ -378,7 +378,7 @@ const Hero = () => {
               justifyContent: {
                 lg:"space-between",
                 md:"space-between",
-                sm:"space-between",
+                sm:"center",
                 xs:"center",
               },
               flexWrap: "wrap",
@@ -389,7 +389,7 @@ const Hero = () => {
               className="card-sub"
               sx={{
                 "&:hover": {
-                  transform: "scale(1.04, 1.04)",
+                  transform: 'scale(2, 2)',
                   boxShadow: "3px 3px 10px #888",
                   transition: "0.5s",
                 },
@@ -404,6 +404,7 @@ const Hero = () => {
                 background: "#0A0A7E",
                 borderRadius: "15px",
                 color: "#CDDFFF",
+                mt:'20px'
               }}
             >
               {/* Heading */}
@@ -668,7 +669,7 @@ const Hero = () => {
                 {/* Description of card */}
                 <Box>
                   <Box sx={{mt:'10px'}}> 
-                    <Button sx={{background:"#0A0A7E", color:'#9fb5ff', textTransform:'capitalize'}}>
+                    <Button sx={{background:"#0A0A7E", color:'#9fb5ff', textTransform:'capitalize',borderRadius:'50PX'}}>
                       Gemini Ai
                     </Button>
                   </Box>

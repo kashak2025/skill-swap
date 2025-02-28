@@ -26,7 +26,7 @@
   color: #00000000 !important;
 }
 .slider-container{
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .slick-arrow{
@@ -44,10 +44,6 @@
 .MuiButtonBase-root a{
   text-decoration: none;
 }
-
-
-
-
 .MuiBox-root a{
   color: #fff;
   text-decoration: none;
