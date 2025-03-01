@@ -115,7 +115,6 @@ const Hero = () => {
 
   return (
     <div>
-      <Header/>
       <div className="slider-container slider">
         <Slider {...settings}>
           <div>
@@ -680,10 +679,6 @@ const Hero = () => {
           </Box>
         </Container>
       </Box>
-
-      <Box></Box>
-
-      <Footer/>
     </div>
   );
 };

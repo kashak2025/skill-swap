@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router';
 import './App.css';
-import LandingPage from './Landing/Hero.jsx';
+import LandingPage from './Pages/LandingPage.jsx';
 import About from './Pages/About.jsx';
 import Community from './Pages/Community.jsx';
 import Market from './Pages/Market.jsx';
