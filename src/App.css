@@ -171,9 +171,6 @@ html, body {
   margin:0 auto;
   padding:1em;
 }
-.conatiner h1{
-  font-size :2.2rem;
-}
 .content{
   margin-bottom :4em;
 }
@@ -185,7 +182,7 @@ html, body {
 .v2 p{
   background-position: left;
   background-size: 0% 100%;
-  background-image: linear-gradient(yellow, yellow);
+  background-image: linear-gradient(rgb(160, 160, 19), yellow);
 }
 .v2 p:hover{
   background-size: 100% 100%;
@@ -195,7 +192,8 @@ html, body {
 
 
 
-/* @import url('https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&display=swap');
+/* 
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&display=swap');
 
 * {
   margin: 0;
@@ -400,4 +398,7 @@ body, html {
   100% {
     opacity: 0.5;
   }
-} */
+} 
+  
+*/
+
