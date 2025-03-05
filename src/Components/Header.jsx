@@ -250,7 +250,7 @@ function Header() {
                 sx={{
                   "&:hover": { boxShadow: "3px 3px #CDDFFF" },
                   border: "1px solid #0E0E7A",
-                  borderRadius: "15px",
+                  borderRadius: "50px",
                 }}
               >
                 <NavLink to={"/signup"}>

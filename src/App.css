@@ -48,3 +48,356 @@
   color: #fff;
   text-decoration: none;
 }
+
+.css-2hy7sk-MuiFormLabel-root-MuiInputLabel-root{
+    color: #0A0A7E !important;
+    font-family: "Outfit", serif !important;
+    font-weight: 500 !important;
+}
+.MuiFormControl-root {
+    border-bottom: 1px solid #0A0A7E !important;
+}
+.css-1ew92b2-MuiFormLabel-root-MuiInputLabel-root.Mui-focused{
+  color: #0A0A7E !important;
+}
+.css-5h82ro-MuiInputBase-root-MuiInput-root::after{
+  border-bottom: 1px solid #0A0A7E;
+}
+
+
+
+
+
+html, body {
+  margin: 0;
+}
+
+.text-container {
+  background: #0A0A7E;
+  width: 100%;
+  color: #fff;
+  height: 100vh;
+  font-family: "Outfit",serif;
+  font-weight: bold;
+  font-size: 36px;
+  position: relative;
+  overflow: hidden;
+}
+
+.text-container > div {
+  animation: come2life linear 10s infinite;
+  transform-origin: center center;
+  opacity: 0;
+  width: 250px;
+  height: 200px;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.text-container > div:nth-child(1) {
+  left: 10%;
+  top: 20%;
+  animation-delay: 0s;
+}
+
+.text-container > div:nth-child(2) {
+  left: 40%;
+  top: 40%;
+  animation-delay: 4s;
+}
+
+.text-container > div:nth-child(3) {
+  left: 10%;
+  top: 80%;
+  animation-delay: 5s;
+}
+
+.text-container > div:nth-child(4) {
+  left: 30vw;
+  top: 70vh;
+  animation-delay: 6s;
+}
+
+.text-container > div:nth-child(5) {
+  left: 80vw;
+  top: 80vh;
+  animation-delay: 7s;
+}
+.text-container > div:nth-child(6) {
+  left: 50%;
+  top: 50%;
+  animation-delay: 5s;
+}
+.text-container > div:nth-child(7) {
+  left: 50% ;
+  top: 80vh;
+  animation-delay: 1s;
+}
+.text-container > div:nth-child(8) {
+  left: 10%;
+  top: 20%;
+  animation-delay: 4s;
+}
+
+@keyframes come2life {
+  0% {
+      transform: scale3d(0,0,1) rotate(0.02deg);
+      opacity: 0;
+      filter: blur(10px);
+  }
+  25% {
+      transform: scale3d(1,1,1) rotate(0.02deg);
+      opacity: 1;
+      filter: blur(0px);
+  }
+  40% {
+      opacity: 1;
+      filter: blur(0px);
+  }
+
+  80% {
+    opacity: 0;
+  }
+
+  100% {
+      transform: scale3d(4,4,1) rotate(0.02deg);
+      filter: blur(10px);
+  }
+}
+
+
+.container{
+  max-width:600px;
+  margin:0 auto;
+  padding:1em;
+}
+.conatiner h1{
+  font-size :2.2rem;
+}
+.content{
+  margin-bottom :4em;
+}
+.content p{
+    display: inline;
+    background-repeat: no-repeat;
+    transition:all 500ms ease-in-out;
+}
+.v2 p{
+  background-position: left;
+  background-size: 0% 100%;
+  background-image: linear-gradient(yellow, yellow);
+}
+.v2 p:hover{
+  background-size: 100% 100%;
+}
+
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+   overflow: hidden;
+}
+.main-box{
+      
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background: #232323;
+
+  display: flex;
+   flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+  
+  .box {
+    width: 100%;
+    height: 250px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    .title {
+      width: 100%;
+      position: relative;
+      display: flex;
+      align-items: center;
+      height: 50px;
+
+      .block {
+        width: 0%;
+        height: inherit;
+        background: #ffb510;
+        position: absolute;
+        animation: mainBlock 2s cubic-bezier(.74, .06, .4, .92) forwards;
+        display: flex;
+      }
+
+      h1 {
+        font-family: 'Poppins';
+        color: #fff;
+        font-size: 32px;
+        -webkit-animation: mainFadeIn 2s forwards;
+        -o-animation: mainFadeIn 2s forwards;
+        animation: mainFadeIn 2s forwards;
+        animation-delay: 1.6s;
+        opacity: 0;
+        display: flex;
+        align-items: baseline;
+        position: relative;
+
+        span {
+          width:0px;
+          height: 0px;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          border-radius: 50%;
+
+          background: #ffb510;
+          -webkit-animation: load 0.6s cubic-bezier(.74, .06, .4, .92) forwards;
+          animation: popIn 0.8s cubic-bezier(.74, .06, .4, .92) forwards;
+          animation-delay: 2s;
+          margin-left: 5px;
+          margin-top: -10px;
+          position: absolute;
+          bottom: 13px;
+          right: -12px;
+
+        }
+      }
+    }
+
+    .role {
+      width: 100%;
+      position: relative;
+      display: flex;
+      align-items: center;
+      height: 30px;
+      margin-top: -10px;
+
+      .block {
+        width: 0%;
+        height: inherit;
+        background: #e91e63;
+        position: absolute;
+        animation: secBlock 2s cubic-bezier(.74, .06, .4, .92) forwards;
+        animation-delay: 2s;
+        display: flex;
+      }
+
+      p {
+        animation: secFadeIn 2s forwards;
+        animation-delay: 3.2s;
+        opacity: 0;
+         font-weight: 400;
+        font-family: 'Lato';
+        color: #ffffff;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+      }
+    }
+  }
+}
+
+
+
+
+
+@keyframes mainBlock {
+  0% {
+    width: 0%;
+    left: 0;
+
+  }
+  50% {
+    width: 100%;
+    left: 0;
+
+  }
+  100% {
+    width: 0;
+    left: 100%;
+  }
+}
+
+@keyframes secBlock {
+  0% {
+    width: 0%;
+    left: 0;
+
+  }
+  50% {
+    width: 100%;
+    left: 0;
+
+  }
+  100% {
+    width: 0;
+    left: 100%;
+  }
+}
+
+@keyframes mainFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+@keyframes popIn {
+  0% {
+    width: 0px;
+    height: 0px;
+    background: #e9d856;
+    border: 0px solid #ddd;
+    opacity: 0;
+  }
+  50% {
+    width: 10px;
+    height: 10px;
+    background: #e9d856;
+    opacity: 1;
+    bottom: 45px;
+  }
+   65% {
+      width: 7px;
+    height: 7px;
+      bottom: 0px;
+      width: 15px
+   }
+   80% {
+      width: 10px;
+    height: 10px;
+      bottom: 20px
+   }
+  100% {
+    width: 7px;
+    height: 7px;
+    background: #e9d856;
+    border: 0px solid #222;
+    bottom: 13px;
+
+  }
+}
+
+@keyframes secFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+} */
