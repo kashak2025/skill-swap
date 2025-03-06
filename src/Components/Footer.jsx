@@ -9,6 +9,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import PinterestIcon from "@mui/icons-material/Pinterest";
 import { CenterFocusStrong } from "@mui/icons-material";
+import { NavLink } from "react-router";
 
 const Footer = () => {
   useEffect(() => {
@@ -144,11 +145,31 @@ const Footer = () => {
                 Company
               </Box>
               <Box>
-                <Box sx={{'&:hover':{color:'#FFE092',transition:'0.5s'},transition:'0.5s'}}>About</Box>
-                <Box sx={{'&:hover':{color:'#FFE092',transition:'0.5s'},transition:'0.5s'}}>Carrer</Box>
-                <Box sx={{'&:hover':{color:'#FFE092',transition:'0.5s'},transition:'0.5s'}}>Blog</Box>
-                <Box sx={{'&:hover':{color:'#FFE092',transition:'0.5s'},transition:'0.5s'}}>Press</Box>
-                <Box sx={{'&:hover':{color:'#FFE092',transition:'0.5s'},transition:'0.5s'}}>ContactUs</Box>
+                <Box sx={{'&:hover':{color:'#FFE092',transition:'0.5s'},transition:'0.5s'}}>
+                  <NavLink to={'/about'}>
+                    About
+                  </NavLink>
+                </Box>
+                <Box sx={{'&:hover':{color:'#FFE092',transition:'0.5s'},transition:'0.5s'}}>
+                  <NavLink to={'/carrer'}>
+                    Carrer
+                  </NavLink>
+                </Box>
+                <Box sx={{'&:hover':{color:'#FFE092',transition:'0.5s'},transition:'0.5s'}}>
+                  <NavLink to={'/blog'}>
+                    Blog
+                  </NavLink>
+                </Box>
+                <Box sx={{'&:hover':{color:'#FFE092',transition:'0.5s'},transition:'0.5s'}}>
+                  <NavLink to={'/press'}>
+                    Press
+                  </NavLink>
+                </Box>
+                <Box sx={{'&:hover':{color:'#FFE092',transition:'0.5s'},transition:'0.5s'}}>
+                  <NavLink to={'/contact'}>
+                    ContactUs
+                  </NavLink>
+                </Box>
               </Box>
             </Box>
 
@@ -176,10 +197,26 @@ const Footer = () => {
                 Informations
               </Box>
               <Box>
-                <Box sx={{'&:hover':{color:'#FFE092',transition:'0.5s'},transition:'0.5s'}}>How it Works</Box>
-                <Box sx={{'&:hover':{color:'#FFE092',transition:'0.5s'},transition:'0.5s'}}>FAQs</Box>
-                <Box sx={{'&:hover':{color:'#FFE092',transition:'0.5s'},transition:'0.5s'}}>Affilate Program</Box>
-                <Box sx={{'&:hover':{color:'#FFE092',transition:'0.5s'},transition:'0.5s'}}>Privacy Policy</Box>
+                <Box sx={{'&:hover':{color:'#FFE092',transition:'0.5s'},transition:'0.5s'}}>
+                  <NavLink to={'/howitwork'}>
+                    HowitWorks
+                  </NavLink>
+                </Box>
+                <Box sx={{'&:hover':{color:'#FFE092',transition:'0.5s'},transition:'0.5s'}}>
+                  <NavLink to={'/faqs'}>
+                    FAQs
+                  </NavLink>
+                </Box>
+                <Box sx={{'&:hover':{color:'#FFE092',transition:'0.5s'},transition:'0.5s'}}>
+                  <NavLink to={'/affilateprog'}>
+                    AffilateProgram
+                  </NavLink>
+                </Box>
+                <Box sx={{'&:hover':{color:'#FFE092',transition:'0.5s'},transition:'0.5s'}}>
+                  <NavLink to={'/privacypolicy'}>
+                    PrivacyPolicy
+                  </NavLink>
+                </Box>
               </Box>
             </Box>
 
@@ -207,16 +244,28 @@ const Footer = () => {
                 Services
               </Box>
               <Box>
-                <Box sx={{'&:hover':{color:'#FFE092',transition:'0.5s'},transition:'0.5s'}}>Skill Exchange</Box>
-                <Box sx={{'&:hover':{color:'#FFE092',transition:'0.5s'},transition:'0.5s'}}>Get New Skills</Box>
-                <Box sx={{'&:hover':{color:'#FFE092',transition:'0.5s'},transition:'0.5s'}}>Terms & Conditions</Box>
+                <Box sx={{'&:hover':{color:'#FFE092',transition:'0.5s'},transition:'0.5s'}}>
+                  <NavLink>
+                    SkillExchange
+                  </NavLink>
+                </Box>
+                <Box sx={{'&:hover':{color:'#FFE092',transition:'0.5s'},transition:'0.5s'}}>
+                  <NavLink>
+                    GetNewSkills
+                  </NavLink>
+                </Box>
+                <Box sx={{'&:hover':{color:'#FFE092',transition:'0.5s'},transition:'0.5s'}}>
+                  <NavLink>
+                    TermsConditions
+                  </NavLink>
+                </Box>
               </Box>
             </Box>
 
             <Box
               sx={{
                 color: "#fff",
-                padding: "0px 30px",
+                padding: "0px 34px",
                 mt: { lg: "0px", md: "0px", sm: "0px", xs: "20px" },
                 textAlign: {
                   lg: "start",
@@ -237,8 +286,16 @@ const Footer = () => {
                 User
               </Box>
               <Box>
-                <Box sx={{'&:hover':{color:'#FFE092',transition:'0.5s'},transition:'0.5s'}}>Login</Box>
-                <Box sx={{'&:hover':{color:'#FFE092',transition:'0.5s'},transition:'0.5s'}}>Sign In</Box>
+                <Box sx={{'&:hover':{color:'#FFE092',transition:'0.5s'},transition:'0.5s'}}>
+                  <NavLink>
+                    Login
+                  </NavLink>
+                </Box>
+                <Box sx={{'&:hover':{color:'#FFE092',transition:'0.5s'},transition:'0.5s'}}>
+                  <NavLink>
+                    SignIn
+                  </NavLink>
+                </Box>
               </Box>
             </Box>
           </Box>

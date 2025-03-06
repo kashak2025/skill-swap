@@ -4,8 +4,6 @@ import { styled, alpha} from "@mui/material/styles";
 import InputBase from "@mui/material/InputBase";
 import SearchIcon from "@mui/icons-material/Search";
 import ScrollReveal from "scrollreveal";
-import Footer from '../Components/Footer'
-import Header from '../Components/Header'
 // slider Image
 import Img1 from "../images/1.jpeg";
 import Img2 from "../images/2.jpeg";
@@ -33,8 +31,8 @@ const settings = {
   dots: true,
   infinite: true,
   speed: 500,
-  autoplay: true,
-  autoplaySpeed: 1000,
+  // autoplay: true,
+  // autoplaySpeed: 1000,
   slidesToShow: 1,
   slidesToScroll: 1,
 };
@@ -117,7 +115,7 @@ const Hero = () => {
     <div>
       <div className="slider-container slider">
         <Slider {...settings}>
-          <div>
+          <div className="background">
             <img src={Img1} width={"100%"} alt="" />
             <Box
               sx={{
@@ -174,7 +172,7 @@ const Hero = () => {
             </Box>
           </div>
 
-          <div>
+          <div className="background">
             <img src={Img2} width={"100%"} alt="" />
             <Box
               sx={{

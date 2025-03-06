@@ -8,6 +8,9 @@ const About = () => {
     ScrollReveal().reveal(".Aboutfir", {
       distance: "100px",
       opacity: 0,
+      origin: 'left',
+      delay: 1000,
+      transition:'5000',
     });
   }, []);
   return (

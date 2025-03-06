@@ -182,12 +182,25 @@ html, body {
 .v2 p{
   background-position: left;
   background-size: 0% 100%;
-  background-image: linear-gradient(rgb(160, 160, 19), yellow);
+  background-image: linear-gradient(rgb(255, 255, 0), rgb(255, 255, 0));
 }
 .v2 p:hover{
+  /* color: #0A0A7E; */
   background-size: 100% 100%;
 }
 
+.background{
+  position: relative;
+}
+.background::before{
+  content: '';
+  background-color: rgba(0, 0, 0, 0.274);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
 
 
 

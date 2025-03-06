@@ -12,6 +12,9 @@ import Login from './Pages/Login.jsx';
 import Blog from './OthrPages/Blog.jsx';
 import Carrer from './OthrPages/Carrer.jsx';
 import Press from './OthrPages/Press.jsx';
+import Faqs from './OthrPages/Faqs.jsx';
+import AffilateProg from './OthrPages/AffilateProg.jsx';
+import PrivacyPolicy from './OthrPages/PrivacyPolicy.jsx';
 
 function App() {
   return (
@@ -30,6 +33,14 @@ function App() {
           <Route path="/blog" element={<Blog/>} />
           <Route path="/carrer" element={<Carrer/>} />
           <Route path="/press" element={<Press/>} />
+
+          <Route path="/howitwork" element={<About/>} />
+          <Route path="/faqs" element={<Faqs/>} />
+          <Route path="/affilateprog" element={<AffilateProg/>} />
+          <Route path="/privacypolicy" element={<PrivacyPolicy/>} />
+          
+
+
         </Routes>
       </BrowserRouter>
     </div>
