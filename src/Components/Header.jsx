@@ -109,7 +109,7 @@ function Header() {
     },
   }));
   return (
-    <div class="header">
+    <div class="header" style={{position:'fixed',zIndex: '999',width:'100%',top:'0'}}>
       <AppBar position="static" sx={{ background: "#fff" }}>
         <Container maxWidth="xl">
           <Toolbar
