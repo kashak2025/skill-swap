@@ -112,7 +112,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div>
+    <div style={{marginTop:'72px'}}>
       <div className="slider-container slider">
         <Slider {...settings}>
           <div className="background">

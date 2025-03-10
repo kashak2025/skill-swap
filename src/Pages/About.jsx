@@ -8,16 +8,60 @@ const About = () => {
     ScrollReveal().reveal(".Aboutfir", {
       distance: "100px",
       opacity: 0,
-      origin: 'left',
+      origin: "left",
       delay: 1000,
-      transition:'5000',
+      transition: "5000",
     });
   }, []);
+  let data = [
+    {
+      p : 'hello'
+    },
+    {
+      p : 'hello'
+    },
+    {
+      p : 'hello'
+    },
+    {
+      p : 'hello'
+    },
+    {
+      p : 'hello'
+    },
+    {
+      p : 'hello'
+    },
+    {
+      p : 'hello'
+    },
+    {
+      p : 'hello'
+    },
+    {
+      p : 'hello'
+    },
+    {
+      p : 'hello'
+    },
+    {
+      p : 'hello'
+    },
+    {
+      p : 'hello'
+    },
+    {
+      p : 'hello'
+    },
+    {
+      p : 'hello'
+    },
+  ]
   return (
     <div>
       <Header />
-      <Box>
-        <Container>
+      <Box sx={{ mt: "90px" }}>
+        {/* <Container>
           <Box
             sx={{ width: "100%", mt: "20px", padding: "10px 10px" }}
             className="Aboutfir"
@@ -31,9 +75,9 @@ const About = () => {
               </p>
             </Box>
           </Box>
-        </Container>
+        </Container> */}
 
-        <Box className="text-container">
+        {/* <Box className="text-container">
           <div>Hello, This is First Comments</div>
           <div>Hello, This is Second Comments</div>
           <div>Hello, This is Third Comments</div>
@@ -42,13 +86,29 @@ const About = () => {
           <div>Hello, This is Sixth Comments</div>
           <div>Hello, This is Seventh Comments</div>
           <div>Hello, This is Eight Comments</div>
-        </Box>
+        </Box> */}
 
-        <Box>
+        {/* <Box>
           <div className="content v2">
             <p>
               Lorem ipsum dolor sit amet. Qui recusandae itaque et suscipit neque et corrupti beatae aut quas officia quo placeat nobis eos expedita odit est vitae culpa? Et porro consequatur id culpa iusto ut architecto nesciunt.
             </p>
+          </div>
+        </Box> */}
+
+        <Box>
+          <div class="slider">
+            <div class="slide-track">
+              {
+                data.map((el, i) => {
+                  return(
+                    <div class="slide">
+                      <p>{el.p}</p>
+                    </div>
+                  )
+                })
+              }
+            </div>
           </div>
         </Box>
       </Box>

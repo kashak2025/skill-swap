@@ -38,9 +38,7 @@ function App() {
           <Route path="/faqs" element={<Faqs/>} />
           <Route path="/affilateprog" element={<AffilateProg/>} />
           <Route path="/privacypolicy" element={<PrivacyPolicy/>} />
-          
-
-
+        
         </Routes>
       </BrowserRouter>
     </div>

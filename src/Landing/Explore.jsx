@@ -24,7 +24,7 @@ const Explore = () => {
     {
       image: img2,
       enrolled: "1800",
-      title: "Beginners Guide to Adobe After Effects: Learn Motion Graphics",
+      title: "Beginners to Adobe After Effects: Learn Motion G..",
       teacher: "Hongshu Guo",
       path: "/market",
     },
@@ -39,7 +39,7 @@ const Explore = () => {
       image: img4,
       enrolled: "3600",
       title:
-        "Social Media Content Creation in Canva: From Beginner to Advanced",
+        "Content Creation in Canva: From Beginner to Adva..",
       teacher: "Maggie Stara",
       path: "/market",
     },
@@ -130,7 +130,7 @@ const Explore = () => {
                           fontFamily: '"Outfit",serif',
                         }}
                       >
-                        y
+                        {el.title}
                       </Box>
                       <Box
                         sx={{
@@ -141,7 +141,7 @@ const Explore = () => {
                           padding: "0px 10px 10px 10px",
                         }}
                       >
-                        <Box sx={{ fontSize: "14px" }}>Miss. Eda</Box>
+                        <Box sx={{ fontSize: "14px" }}>{el.teacher}</Box>
                         <Box
                           sx={{
                             "&:hover": {

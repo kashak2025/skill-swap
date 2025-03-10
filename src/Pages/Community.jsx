@@ -1,11 +1,14 @@
 import React from 'react'
 import Footer from '../Components/Footer'
 import Header from '../Components/Header'
+import { Box } from '@mui/material'
 const Community = () => {
   return (
     <div>
         <Header/>
-Community      
+        <Box sx={{mt:'90px'}}>
+        Community
+      </Box>     
         <Footer/>
     </div>
   )

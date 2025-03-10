@@ -20,7 +20,7 @@ const Signup = () => {
   return (
     <div>
       <Header />
-      <Box>
+      <Box sx={{mt:'90px'}}>
         <Container>
           <Box sx={{ width: '100%', display: 'flex',mt:'60px',px:{lg:'180px',md:'90px', sm:'0px'},justifyContent:'center' }}>
             <Box sx={{ width: '40%', height:{lg:'500px',md:'500px',sm:"454px",xs:'0'},display:{lg:"block",md:'block',sm:"block",xs:'none'}}}>
