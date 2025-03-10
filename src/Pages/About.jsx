@@ -13,55 +13,12 @@ const About = () => {
       transition: "5000",
     });
   }, []);
-  let data = [
-    {
-      p : 'hello'
-    },
-    {
-      p : 'hello'
-    },
-    {
-      p : 'hello'
-    },
-    {
-      p : 'hello'
-    },
-    {
-      p : 'hello'
-    },
-    {
-      p : 'hello'
-    },
-    {
-      p : 'hello'
-    },
-    {
-      p : 'hello'
-    },
-    {
-      p : 'hello'
-    },
-    {
-      p : 'hello'
-    },
-    {
-      p : 'hello'
-    },
-    {
-      p : 'hello'
-    },
-    {
-      p : 'hello'
-    },
-    {
-      p : 'hello'
-    },
-  ]
+  
   return (
     <div>
       <Header />
       <Box sx={{ mt: "90px" }}>
-        {/* <Container>
+        <Container>
           <Box
             sx={{ width: "100%", mt: "20px", padding: "10px 10px" }}
             className="Aboutfir"
@@ -75,7 +32,7 @@ const About = () => {
               </p>
             </Box>
           </Box>
-        </Container> */}
+        </Container>
 
         {/* <Box className="text-container">
           <div>Hello, This is First Comments</div>
@@ -96,21 +53,7 @@ const About = () => {
           </div>
         </Box> */}
 
-        <Box>
-          <div class="slider">
-            <div class="slide-track">
-              {
-                data.map((el, i) => {
-                  return(
-                    <div class="slide">
-                      <p>{el.p}</p>
-                    </div>
-                  )
-                })
-              }
-            </div>
-          </div>
-        </Box>
+        
       </Box>
       <Footer />
     </div>

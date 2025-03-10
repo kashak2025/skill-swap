@@ -204,12 +204,15 @@ html, body {
 
 
 
-p {
-  width: 80px;
+.slide p {
+  width: 240px;
   height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 23px;
+  font-family: "Outfit",serif;
+  font-weight: 700;
   animation: scroll 60s linear infinite;
 }
 
@@ -220,10 +223,11 @@ p {
   overflow: hidden;
 }
 
-.slider {
-  margin-top: 0px;
-  background-color: whitesmoke;
-  padding: 1em 10em;
+.slider23 {
+  margin-top: -17px;
+  color: #fff;
+  background-color: #0A0A7E;
+  padding: 0em 2em;
 }
 
 @keyframes scroll {
