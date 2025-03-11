@@ -15,6 +15,7 @@ import Press from './OthrPages/Press.jsx';
 import Faqs from './OthrPages/Faqs.jsx';
 import AffilateProg from './OthrPages/AffilateProg.jsx';
 import PrivacyPolicy from './OthrPages/PrivacyPolicy.jsx';
+import Press2 from './OthrPages/Press-2.jsx';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route path="/blog" element={<Blog/>} />
           <Route path="/carrer" element={<Carrer/>} />
           <Route path="/press" element={<Press/>} />
+          <Route path="/press-2" element={<Press2/>} />
 
           <Route path="/howitwork" element={<About/>} />
           <Route path="/faqs" element={<Faqs/>} />
