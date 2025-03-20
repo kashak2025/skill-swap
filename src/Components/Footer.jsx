@@ -287,12 +287,12 @@ const Footer = () => {
               </Box>
               <Box>
                 <Box sx={{'&:hover':{color:'#FFE092',transition:'0.5s'},transition:'0.5s'}}>
-                  <NavLink>
+                  <NavLink to={"/login"}>
                     Login
                   </NavLink>
                 </Box>
                 <Box sx={{'&:hover':{color:'#FFE092',transition:'0.5s'},transition:'0.5s'}}>
-                  <NavLink>
+                  <NavLink to={"/signup"}>
                     SignIn
                   </NavLink>
                 </Box>

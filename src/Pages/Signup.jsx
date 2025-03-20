@@ -5,6 +5,7 @@ import { Box, Button, Container, TextField } from '@mui/material'
 import { useFormik } from 'formik'
 import VDO1 from '../images/signup.mp4'
 import ScrollReveal from 'scrollreveal'
+import { NavLink } from 'react-router'
 
 const Signup = () => {
   const formik = useFormik({
@@ -107,10 +108,13 @@ const Signup = () => {
                         onChange={formik.handleChange}
                         value={formik.values.learnskills}
                       />
-                      <Box sx={{display:'flex',justifyContent:'center',width:'100%'}}>
+                      <Box sx={{display:'flex', alignItems:'center',justifyContent:'space-between',width:'100%'}}>
                         <Button variant="contained" type='submit' sx={{'&:hover':{boxShadow:'2px 2px #905A63'},mt:'20px',textTransform:'capitalize',background:'#0A0A7E',borderRadius:"20px",fontFamily:'"Outfit",serif',fontSize:"15px"}}>
                           Submit
                         </Button>
+                        <NavLink to={'/login '}>
+                          <Box sx={{mt:'16px', color:'#0A0A7E', fontFamily:'"Outfit",serif', fontSize:'17px'}}>Login</Box>
+                        </NavLink>
                       </Box>
                     </Box>
                   </Box>

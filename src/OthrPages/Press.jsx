@@ -158,6 +158,9 @@ const Press = () => {
                   <Box>
                     <img src={Press3} width={"100%"} alt="" />
                   </Box>
+                  <Box sx={{fontSize:'20px',fontFamily:'"Outfit",serif'}}>
+                    Live Podcast By WVM to know that How we works.
+                  </Box>
                 </Box>
               </Box>
             </Box>

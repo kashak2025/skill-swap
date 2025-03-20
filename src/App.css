@@ -63,7 +63,12 @@
 .css-5h82ro-MuiInputBase-root-MuiInput-root::after{
   border-bottom: 1px solid #0A0A7E;
 }
-
+/* input :- internal-autofill-selected{
+  background-color: transparent !important; */
+/* }/  */
+.css-1yrc8ca-MuiInputBase-input-MuiInput-input{
+  background-color: transparent !important  ;
+}
 
 
 
@@ -71,7 +76,6 @@
 html, body {
   margin: 0;
 }
-
 .text-container {
   background: #0A0A7E;
   width: 100%;
@@ -83,7 +87,6 @@ html, body {
   position: relative;
   overflow: hidden;
 }
-
 .text-container > div {
   animation: come2life linear 10s infinite;
   transform-origin: center center;
@@ -93,31 +96,26 @@ html, body {
   position: absolute;
   backface-visibility: hidden;
 }
-
 .text-container > div:nth-child(1) {
   left: 10%;
   top: 20%;
   animation-delay: 0s;
 }
-
 .text-container > div:nth-child(2) {
   left: 40%;
   top: 40%;
   animation-delay: 4s;
 }
-
 .text-container > div:nth-child(3) {
   left: 10%;
   top: 80%;
   animation-delay: 5s;
 }
-
 .text-container > div:nth-child(4) {
   left: 30vw;
   top: 70vh;
   animation-delay: 6s;
 }
-
 .text-container > div:nth-child(5) {
   left: 80vw;
   top: 80vh;
@@ -138,7 +136,6 @@ html, body {
   top: 20%;
   animation-delay: 4s;
 }
-
 @keyframes come2life {
   0% {
       transform: scale3d(0,0,1) rotate(0.02deg);
@@ -166,7 +163,8 @@ html, body {
 }
 
 
-.container{
+
+/* .container{
   max-width:600px;
   margin:0 auto;
   padding:1em;
@@ -185,10 +183,9 @@ html, body {
   background-image: linear-gradient(rgb(255, 255, 0), rgb(255, 255, 0));
 }
 .v2 p:hover{
-  /* color: #0A0A7E; */
+  // color: #0A0A7E; 
   background-size: 100% 100%;
-}
-
+} 
 .background{
   position: relative;
 }
@@ -200,7 +197,8 @@ html, body {
   right: 0;
   bottom: 0;
   top: 0;
-}
+} */
+
 
 
 
@@ -215,21 +213,18 @@ html, body {
   font-weight: 700;
   animation: scroll 60s linear infinite;
 }
-
 .slide-track {
   width: 100%;
   display: flex;
   gap: 3em;
   overflow: hidden;
 }
-
 .slider23 {
   margin-top: -17px;
   color: #fff;
   background-color: #0A0A7E;
   padding: 0em 2em;
 }
-
 @keyframes scroll {
   0% {transform: translateX(0);}
   100% {transform: translatex(-1000%)}
@@ -240,8 +235,7 @@ html, body {
 
 
 
-/* 
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&display=swap');
+/*  @import url('https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&display=swap');
 
 * {
   margin: 0;
@@ -449,4 +443,3 @@ body, html {
 } 
   
 */
-

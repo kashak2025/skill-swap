@@ -1,13 +1,17 @@
 import React from 'react'
 import Footer from '../Components/Footer'
 import Header from '../Components/Header'
-import { Box } from '@mui/material'
+import { Box, Container } from '@mui/material'
 const Login = () => {
   return (
     <div>
     <Header/>
       <Box sx={{mt:'90px'}}>
-        Login
+        <Container>
+          <Box>
+            
+          </Box>
+        </Container>
       </Box>
     <Footer/>
     </div>
