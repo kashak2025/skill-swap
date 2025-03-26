@@ -1,15 +1,19 @@
 import React from 'react'
 import Footer from '../Components/Footer'
 import Header from '../Components/Header'
-import { Box } from '@mui/material'
+import { Box, Container } from '@mui/material'
 
 const Blog = () => {
   return (
     <div>
       <Header/>
-      <Box sx={{mt:'90px'}}>
-        Blog
-      </Box>
+        <Box sx={{mt:'90px'}}>
+          <Container>
+            <Box>
+              
+            </Box>
+          </Container>
+        </Box>
       <Footer/>
     </div>
   )

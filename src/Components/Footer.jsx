@@ -19,7 +19,7 @@ const Footer = () => {
     });
   })
   return (
-    <div style={{ background: "#0E0E7A", marginTop:'20px' }} class="footer">
+    <div style={{ background: "#0E0E7A", }} class="footer">
       <Container>
         <Box sx={{ width: "100%" }}>
           <Box

@@ -41,9 +41,9 @@ const Signup = () => {
   return (
     <div>
       <Header />
-      <Box sx={{mt:'90px'}}>
+      <Box sx={{mt:'100px'}}>
         <Container>
-          <Box sx={{ width: '100%', display: 'flex',mt:'60px',px:{lg:'180px',md:'90px', sm:'0px'},justifyContent:'center' }}>
+          <Box sx={{ width: '100%', display: 'flex',marginTop:'94px',px:{lg:'180px',md:'90px', sm:'0px'},justifyContent:'center' }}>
             <Box className="left" sx={{ width: '40%', height:{lg:'500px',md:'500px',sm:"454px",xs:'0'},display:{lg:"block",md:'block',sm:"block",xs:'none'}}}>
                 <video width={"100%"} style={{borderRadius:'50px 0px 0px 50px'}} height={"100%"} autoPlay loop muted>
                   <source src={VDO1} width={"100%"} height={"100%"} type='video/mp4' muted autoPlay loop />
@@ -112,8 +112,8 @@ const Signup = () => {
                         <Button variant="contained" type='submit' sx={{'&:hover':{boxShadow:'2px 2px #905A63'},mt:'20px',textTransform:'capitalize',background:'#0A0A7E',borderRadius:"20px",fontFamily:'"Outfit",serif',fontSize:"15px"}}>
                           Submit
                         </Button>
-                        <NavLink to={'/login '}>
-                          <Box sx={{mt:'16px', color:'#0A0A7E', fontFamily:'"Outfit",serif', fontSize:'17px'}}>Login</Box>
+                        <NavLink to={'/login'}>
+                          <Box sx={{'&:hover':{color:'#905A63', transition:'0.5s'}, transition:'0.5s',mt:'16px', color:'#0A0A7E', fontFamily:'"Outfit",serif', fontSize:'17px'}}>Login</Box>
                         </NavLink>
                       </Box>
                     </Box>
