@@ -27,7 +27,7 @@ const Faqs = () => {
             <Box sx={{pb:"20px"}}>
 
 
-              <Accordion sx={{background:'transparent', color:'#fff'}} expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
+              <Accordion className='accordian-custom-css' expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
                 <AccordionSummary
                   expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel1bh-content"
@@ -41,7 +41,7 @@ const Faqs = () => {
               </Accordion>
 
 
-              <Accordion sx={{background:'transparent', color:'#fff'}} expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
+              <Accordion className='accordian-custom-css' expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
                 <AccordionSummary
                   expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel2bh-content"
@@ -56,7 +56,7 @@ const Faqs = () => {
 
 
 
-              <Accordion sx={{background:'transparent', color:'#fff'}} expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
+              <Accordion className='accordian-custom-css' expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
                 <AccordionSummary
                   expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel3bh-content"
@@ -71,7 +71,7 @@ const Faqs = () => {
 
 
 
-              <Accordion sx={{background:'transparent', color:'#fff'}} expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
+              <Accordion className='accordian-custom-css' expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
                 <AccordionSummary
                   expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel4bh-content"
@@ -87,7 +87,7 @@ const Faqs = () => {
 
 
 
-              <Accordion sx={{background:'transparent', color:'#fff'}} expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
+              <Accordion className='accordian-custom-css' expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
                 <AccordionSummary
                   expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel5bh-content"
@@ -99,17 +99,15 @@ const Faqs = () => {
               </Accordion>
 
 
-              <Accordion sx={{background:'transparent', color:'#fff', boxShadow:'3px 3px 4px #'}} expanded={expanded === 'panel6'} onChange={handleChange('panel6')}>
+              <Accordion className='accordian-custom-css' expanded={expanded === 'panel6'} onChange={handleChange('panel6')}>
                 <AccordionSummary
                   expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel6bh-content"
                   id="panel6bh-header"
                 >
-                  <Typography sx={{fontSize:'20px'}}>What kind of skills can I offer or request?</Typography>
+                  <Typography sx={{fontSize:'20px'}}>How can I ensure the other user is reliable?</Typography>
                 </AccordionSummary>
-                <AccordionDetails>
-                You can offer or request a wide range of skills, such as language learning, coding, cooking, photography, art, music, writing, digital marketing, gardening, public speaking, and much more! If you have a skill to share, there’s likely someone looking to learn it.
-                </AccordionDetails>
+                <AccordionDetails>You can check user reviews and ratings from previous skill swaps to help you make an informed decision. Our platform encourages transparency, so you can connect with users who have a positive track record.</AccordionDetails>
               </Accordion>
 
 
