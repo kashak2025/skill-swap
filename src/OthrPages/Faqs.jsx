@@ -37,11 +37,10 @@ const Faqs = () => {
                   aria-controls="panel2-content"
                   id="panel2-header"
                 >
-                  <Typography sx={{fontSize:'20px'}}>Accordion 2</Typography>
+                  <Typography sx={{fontSize:'20px'}}>How does Skill Swap India work?</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                  malesuada lacus ex, sit amet blandit leo lobortis eget.
+                  Once you sign up on our platform, you can create a profile highlighting the skills you are willing to offer and the skills you'd like to learn. Browse other users' profiles, connect with those whose skills align with what you're looking to learn, and start a conversation to arrange a skill exchange.
                 </AccordionDetails>
               </Accordion>
               <Accordion defaultExpanded sx={{background:'transparent', color:'#fff'}}>
@@ -50,11 +49,10 @@ const Faqs = () => {
                   aria-controls="panel3-content"
                   id="panel3-header"
                 >
-                  <Typography sx={{fontSize:'20px'}}>Accordion 3</Typography>
+                  <Typography sx={{fontSize:'20px'}}>Is it completely free to use?</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                  malesuada lacus ex, sit amet blandit leo lobortis eget.
+                  Yes! Skill Swap India is 100% free. There are no hidden charges or fees for signing up or using the platform. The goal is to encourage learning and sharing knowledge without any monetary transactions.
                 </AccordionDetails>
               </Accordion>
               <Accordion sx={{background:'transparent', color:'#fff'}}>
@@ -63,11 +61,33 @@ const Faqs = () => {
                   aria-controls="panel4-content"
                   id="panel4-header"
                 >
-                  <Typography sx={{fontSize:'20px'}}>Accordion 4</Typography>
+                  <Typography sx={{fontSize:'20px'}}>Do I have to be an expert in my skill to offer it?
+                  </Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                  malesuada lacus ex, sit amet blandit leo lobortis eget.
+                Not at all! Whether you're a beginner or an advanced learner, you can offer your skills. The platform is designed to help people at all levels share and learn from each other.
+                </AccordionDetails>
+              </Accordion>
+              <Accordion sx={{background:'transparent', color:'#fff'}}>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel5-content"
+                  id="panel5-header"
+                >
+                  <Typography sx={{fontSize:'20px'}}>What kind of skills can I offer or request?</Typography>
+                </AccordionSummary>
+                <AccordionDetails>You can offer or request a wide range of skills, such as language learning, coding, cooking, photography, art, music, writing, digital marketing, gardening, public speaking, and much more! If you have a skill to share, there’s likely someone looking to learn it.</AccordionDetails>
+              </Accordion>
+              <Accordion sx={{background:'transparent', color:'#fff'}}>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel6-content"
+                  id="panel6-header"
+                >
+                  <Typography sx={{fontSize:'20px'}}>What kind of skills can I offer or request?</Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                You can offer or request a wide range of skills, such as language learning, coding, cooking, photography, art, music, writing, digital marketing, gardening, public speaking, and much more! If you have a skill to share, there’s likely someone looking to learn it.
                 </AccordionDetails>
               </Accordion>
             </Box>

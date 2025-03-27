@@ -20,16 +20,16 @@ const About = () => {
       <Box sx={{ mt: "90px" }}>
         <Container>
           <Box
-            sx={{ width: "100%", mt: "20px", padding: "10px 10px" }}
+            sx={{ width: "100%", mb:"20px", mt: "20px", padding: "10px 10px" }}
             className="Aboutfir"
           >
-            <Box sx={{ fontFamily: '"Outfit",serif', fontSize: "29px" }}>
+            <Box sx={{ fontFamily: '"Outfit",serif', fontSize: "30px", fontWeight:'500' }}>
               About Us
             </Box>
-            <Box className="content v2">
-              <p>
-                Welcome to Skill Swap India, the ultimate platform for skill exchange! We believe thateveryone has something valuable to teach and something new tolearn. Our mission is to create a community where people can sharetheir skills, learn from others, and grow together—without theneed for money. Whether you're a seasoned expert or a curiousbeginner, this is the place to connect, collaborate, and exchangeknowledge.
-              </p>
+            <Box>
+              <Box sx={{fontSize:'18px'}}>
+                Welcome to <span style={{fontWeight:"500",fontFamily:'"Outfit",serif'}}>SkillSwapIndia. </span>, the ultimate platform for skill exchange! We believe thateveryone has something valuable to teach and something new tolearn. Our mission is to create a community where people can sharetheir skills, learn from others, and grow together—without theneed for money. Whether you're a seasoned expert or a curiousbeginner, this is the place to connect, collaborate, and exchangeknowledge.
+              </Box>
             </Box>
           </Box>
         </Container>

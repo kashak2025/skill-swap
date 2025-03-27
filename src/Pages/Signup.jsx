@@ -43,7 +43,7 @@ const Signup = () => {
       <Header />
       <Box sx={{mt:'100px'}}>
         <Container>
-          <Box sx={{ width: '100%', display: 'flex',marginTop:'94px',px:{lg:'180px',md:'90px', sm:'0px'},justifyContent:'center' }}>
+          <Box sx={{ width: '100%', display: 'flex',mb:'25px',marginTop:'94px',px:{lg:'180px',md:'90px', sm:'0px'},justifyContent:'center' }}>
             <Box className="left" sx={{ width: '40%', height:{lg:'500px',md:'500px',sm:"454px",xs:'0'},display:{lg:"block",md:'block',sm:"block",xs:'none'}}}>
                 <video width={"100%"} style={{borderRadius:'50px 0px 0px 50px'}} height={"100%"} autoPlay loop muted>
                   <source src={VDO1} width={"100%"} height={"100%"} type='video/mp4' muted autoPlay loop />
