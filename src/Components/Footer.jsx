@@ -1,6 +1,6 @@
 import { Box, Container } from "@mui/material";
 import React, { useEffect } from "react";
-import Logo from "../images/white-horizontal.png";
+import Logo from "../images/SkillSwap-horizontal-dark-png.png";
 import ScrollReveal from "scrollreveal";
 
 import FacebookIcon from "@mui/icons-material/Facebook";

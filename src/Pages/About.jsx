@@ -12,6 +12,13 @@ const About = () => {
       delay: 1000,
       transition: "5000",
     });
+    ScrollReveal().reveal(".vision", {
+      distance: "100px",
+      opacity: 0,
+      origin: "right",
+      delay: 2000,
+      transition: "5000",
+    });
   }, []);
   
   return (
@@ -28,7 +35,20 @@ const About = () => {
             </Box>
             <Box>
               <Box sx={{fontSize:'18px'}}>
-                Welcome to <span style={{fontWeight:"500",fontFamily:'"Outfit",serif'}}>SkillSwapIndia. </span>, the ultimate platform for skill exchange! We believe thateveryone has something valuable to teach and something new tolearn. Our mission is to create a community where people can sharetheir skills, learn from others, and grow together—without theneed for money. Whether you're a seasoned expert or a curiousbeginner, this is the place to connect, collaborate, and exchangeknowledge.
+                Welcome to <span style={{fontWeight:"500",fontFamily:'"Outfit",serif'}}>SkillSwap. </span>, the ultimate platform for skill exchange! We believe thateveryone has something valuable to teach and something new tolearn. Our mission is to create a community where people can sharetheir skills, learn from others, and grow together—without theneed for money. Whether you're a seasoned expert or a curiousbeginner, this is the place to connect, collaborate, and exchangeknowledge.
+              </Box>
+            </Box>
+          </Box>
+          <Box
+            sx={{ width: "100%", mb:"20px", mt: "20px", padding: "10px 10px" }}
+            className="vision"
+          >
+            <Box sx={{ fontFamily: '"Outfit",serif', fontSize: "30px", fontWeight:'500' }}>
+              Our Vision
+            </Box>
+            <Box>
+              <Box sx={{fontSize:'18px'}}>
+                Welcome to <span style={{fontWeight:"500",fontFamily:'"Outfit",serif'}}>SkillSwap. </span>, the ultimate platform for skill exchange! We believe thateveryone has something valuable to teach and something new tolearn. Our mission is to create a community where people can sharetheir skills, learn from others, and grow together—without theneed for money. Whether you're a seasoned expert or a curiousbeginner, this is the place to connect, collaborate, and exchangeknowledge.
               </Box>
             </Box>
           </Box>
